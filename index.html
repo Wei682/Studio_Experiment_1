@@ -1,0 +1,46 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Building Features</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+    <div class="container">
+        <!-- Task Description Section -->
+        <div id="task-description">
+            <p><strong>Task:</strong> Your task is to review the information about the three office options and select the one you would prefer to rent. You can explore the details by choosing an office and its features. Your selections will help us determine the factors that are most important for tenant retention. There's no need to click on every feature—focus only on the ones that matter to you.</p>
+        </div>
+
+        <!-- Offices Section -->
+        <h2 class="section-title">Select an Office to Begin:</h2>
+        <div id="office-buttons-container">
+            <button class="office-button" data-office="Office A">Office A</button>
+            <button class="office-button" data-office="Office B">Office B</button>
+            <button class="office-button" data-office="Office C">Office C</button>
+        </div>
+
+        <!-- Feature Categories -->
+        <h2 class="section-title">Select a Feature Category:</h2>
+        <div id="feature-buttons-container">
+            <button class="feature-category" data-category="Amenities">Amenities</button>
+            <button class="feature-category" data-category="Design">Design</button>
+            <button class="feature-category" data-category="Pricing">Pricing</button>
+            <button class="feature-category" data-category="Maintenance">Maintenance</button>
+            <button class="feature-category" data-category="Location">Location</button>
+        </div>
+
+        <!-- Sub-feature Buttons -->
+        <div id="sub-feature-buttons-container" style="display: none;"></div>
+
+        <!-- Information Display -->
+        <div id="info-container">
+            <h2 id="info-title">Office Information</h2>
+            <p id="info-details">Please select an office and a feature to view the details.</p>
+        </div>
+
+        <!-- Export Button -->
+        <button id="export-data" class="export-button">Export Data to CSV</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>

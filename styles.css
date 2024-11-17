@@ -1,0 +1,111 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Section */
+#task-description {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333; /* Dark text for readability */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+    border: 1px solid #dbe9f4; /* Slight border for definition */
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Buttons */
+#office-buttons-container,
+#feature-buttons-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.office-button,
+.feature-category {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #0288d1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.office-button:hover,
+.feature-category:hover {
+    background-color: #01579b;
+}
+
+/* Sub-feature Buttons */
+.feature-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: #43a047;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feature-button:hover {
+    background-color: #2e7d32;
+}
+
+/* Information Display */
+#info-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Export Button */
+.export-button {
+    margin-top: 20px;
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.export-button:hover {
+    background-color: #e64a19;
+}
