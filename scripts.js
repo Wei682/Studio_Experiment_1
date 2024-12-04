@@ -16,10 +16,6 @@ const officeData = {
         Maintenance: {
             Cleaning: "Daily cleaning services with environmentally friendly products.",
             Support: "On-site maintenance team available during business hours."
-        },
-        Location: {
-            Accessibility: "Located in the city center near metro stations and bus routes.",
-            Surroundings: "Surrounded by cafes, shopping centers, and coworking spaces."
         }
     },
     "Office B": {
@@ -39,10 +35,6 @@ const officeData = {
         Maintenance: {
             Cleaning: "Weekly deep-cleaning services included in the rent.",
             Support: "Dedicated property manager available 24/7 for urgent issues."
-        },
-        Location: {
-            Accessibility: "Easily accessible via suburban bus routes and major highways.",
-            Surroundings: "Quiet neighborhood near parks and a tech innovation hub."
         }
     },
     "Office C": {
@@ -62,10 +54,6 @@ const officeData = {
         Maintenance: {
             Cleaning: "Daily cleaning, including touchpoint sanitization for high-traffic areas.",
             Support: "24/7 concierge and on-demand maintenance services."
-        },
-        Location: {
-            Accessibility: "Close to the international airport and major corporate districts.",
-            Surroundings: "High-end retail, dining, and entertainment options nearby."
         }
     }
 };
